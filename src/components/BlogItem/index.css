@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.blog-img {
+  width: 400px;
+  height: 250px;
+}
+
+.blog-avatar-img {
+  width: 30px;
+}
+
+.blog-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.blog-item-text-container {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.blog-author-container {
+  display: flex;
+}
